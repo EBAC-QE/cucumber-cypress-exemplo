@@ -3,7 +3,15 @@ Feature: Navegação no site Cucumber.io
   Eu quero navegar pelo site oficial do Cucumber
   Para que eu possa acessar a documentação e aprender sobre a ferramenta
 
+@documentação
 Scenario: Visitar a página inicial do Cucumber.io
   Given que acesso o site do Cucumber.io
   When clicar no link Documentation
   Then deve exibir o título Introduction na página
+
+@learn
+Scenario: Acessar a seção de Aprendizado
+  Given que acesso o site do Cucumber.io
+  When clicar no link Learn
+  Then deve exibir o título Learn na página 
+

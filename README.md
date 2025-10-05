@@ -29,6 +29,10 @@ npx cypress run
 # Executar testes com interface gráfica
 npx cypress open
 ```
+# Excutar testes com tags
+```bash
+npx cypress run --env tags='@learn'
+```
 
 ## 🛠 Tecnologias utilizadas
 
